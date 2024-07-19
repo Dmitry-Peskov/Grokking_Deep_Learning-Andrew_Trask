@@ -1,2 +1,2 @@
 # Grokking_Deep_Learning-Andrew_Trask
-Читаем книгу "Грокаем глубокое обучение" за автороством Эндрю Траск
+Читаем книгу ["Грокаем глубокое обучение"](https://www.ozon.ru/search/?deny_category_prediction=true&from_global=true&text=%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC+%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%BE%D0%B5+%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5+%7C+%D0%A2%D1%80%D0%B0%D1%81%D0%BA+%D0%AD%D0%BD%D0%B4%D1%80%D1%8E&product_id=1209156123) за автороством Эндрю Траск

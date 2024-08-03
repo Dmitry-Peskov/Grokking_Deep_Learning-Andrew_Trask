@@ -32,3 +32,22 @@ def element_multiplication(
     for idx in range(len(weights)):
         output[idx] = features * weights[idx]
     return output
+
+
+def vector_matrix_multiplication(
+        vector: np.ndarray,
+        matrix: np.matrix
+) -> np.ndarray:
+    """
+    Векторно-матричное умножение для вычисления серии взвешенных сумм.
+
+    :param vector: вектор
+    :param matrix: матрица
+    :return: вектор содержаший в себе серию взвешенных сумм
+    """
+
+    assert (len(vector) == len(matrix)), "Количество элементов в vector должно соответствовать количеству столбцов в matrix"
+    output = np.array([0 for _ in range(len(vector))])
+    for idx in range(len(vector)):
+        output[idx] = weighted_amount(vector, matrix[idx])
+    return output
